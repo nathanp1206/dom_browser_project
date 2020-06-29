@@ -433,8 +433,8 @@
     background-color: #333;
     color: white;
     min-width: 150px;
-    min-height: 250px;
-    margin: 0px 60px 40px 60px;
+    min-height: 200px;
+    margin: 0px 51px 40px 51px;
   }
 
   .game {
@@ -449,18 +449,18 @@
     background-color: white;
     color: #333;
     min-width: 150px;
-    min-height: 250px;
+    min-height: 200px;
   }
 
   .score {
-    min-width: 1500px;
+    min-width: 1400px;
     min-height: 60px;
     font-size: large;
     font-weight: bold;
   }
 
   .title {
-    min-width: 1500px;
+    min-width: 1400px;
   }
 
   .cards {
