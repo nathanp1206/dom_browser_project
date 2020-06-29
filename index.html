@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Card Game
-        </title>
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="style1.css" />   
     </head>
-    <body>
-        <h1>Choose the difficulty</h1>
-        <fieldset> 
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Difficulty</button>
-                <div id="myDropdown" class="dropdown-content" value="">
-                    <a href="#" value="Easy">Easy</a>
-                    <a href="#" value="Medium">Medium</a>
-                    <a href="#" value="Hard">Hard</a>
+    <body id="game" class="game">
+            <header>
+                <h1 class="title">Memory Game</h1>
+            </header>
+            <section class="score">
+                <div>
+                    <label>Score:</label>
+                    <div class="points" id="points"></div>
                 </div>
-          </div> 
-        </fieldset>
-        <div class="cards" id="cards"></div> 
-        <script src="app.js"></script>    
+            </section>
+        <script src="app.js"></script>
     </body>
 </html>
