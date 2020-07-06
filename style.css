@@ -434,10 +434,12 @@
     color: white;
     min-width: 150px;
     min-height: 200px;
+    max-height: 200px;
     margin: 0px 51px 40px 51px;
   }
 
   .game {
+    background-color: rgb(173, 173, 173);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -446,9 +448,11 @@
   }
 
   .back {
+    /* transform: rotateY('180'); */
     background-color: white;
     color: #333;
     min-width: 150px;
+    max-height: 200px;
     min-height: 200px;
   }
 

@@ -92,4 +92,3 @@ let cardDiv = document.createElement("div")
 cardDiv.setAttribute("class", "cardDiv")
 cards.forEach(card=>cardDiv.append(card.node))
 gameHolder.append(cardDiv)
-
